@@ -1,16 +1,16 @@
 This Docker image does a few things.
 
-** Installs Tomcat 8
-** Copies tomcat-users.xml to Tomcat's conf directory
-** Copies JRebel agent files to the correct directory
-** Installs bash
+**Installs Tomcat 8**
+**Copies tomcat-users.xml to Tomcat's conf directory**
+**Copies JRebel agent files to the correct directory**
+**Installs bash
 
 
 Things you need to do manually before you run this image.
 
-** Either buy or get a trial license of JRebel
-** Activate JRebel
-** Follow the instruction to obtain the libjrebel64.so and jrebel.jar file.  Files should be copied to directory of the Dockerfile.
+**Either buy or get a trial license of JRebel**
+**Activate JRebel**
+**Follow the instruction to obtain the libjrebel64.so and jrebel.jar file.  Files should be copied to directory of the Dockerfile.**
 
 To build the Dockerfile
 
