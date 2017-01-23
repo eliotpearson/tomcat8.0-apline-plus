@@ -29,6 +29,7 @@ Now that the image is running.  You should be able to access the Tomcat manager 
 http://localhost:8080/manager/html
 
 
+You can deploy manually or through a Maven plugin.  Once your application is deployed, the JRebel agent will push changes to Tomcat for you.  No need to redeploy.  JREBEL WILL DO IT FOR YOU!
 
 
 
