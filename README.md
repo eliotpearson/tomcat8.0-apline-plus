@@ -21,7 +21,7 @@ docker build -t [name of image] -f Dockerfile .
 To run the image after it is built, you can run the command below.  This is running in attached mode.
 
 ```
-docker run -dit --rm -p 8080:8080 [name of image]
+docker run -it --rm -p 8080:8080 [name of image]
 ```
 
 Now that the image is running.  You should be able to access the Tomcat manager with the credentials of tomcat/s3cret.
